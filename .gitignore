@@ -1,5 +1,6 @@
 # Environment variables
 .env
+.env.*
 
 # Python
 __pycache__/
@@ -24,10 +25,6 @@ wheels/
 .installed.cfg
 *.egg
 
-# Logs
-*.log
-posted_threads.json
-
 # Virtual Environment
 venv/
 ENV/
@@ -36,4 +33,10 @@ ENV/
 .idea/
 .vscode/
 *.swp
-*.swo 
+*.swo
+
+# Logs
+*.log
+
+# Local data
+posted_threads.json 
